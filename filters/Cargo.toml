@@ -27,13 +27,16 @@ bytes = { workspace = true }
 futures = { workspace = true }
 http = { workspace = true }
 metrics = { workspace = true }
+pingora-core = { workspace = true }
 praxis-ai-apis = { workspace = true }
 praxis-core = { workspace = true }
 praxis-filter = { workspace = true }
 reqwest.workspace = true
 serde = { workspace = true }
 serde_json = { workspace = true }
+serde_json_path = { workspace = true }
 serde_yaml = { workspace = true }
+tokio = { workspace = true, features = ["net"] }
 tracing = { workspace = true }
 
 [dev-dependencies]

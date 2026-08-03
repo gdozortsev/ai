@@ -14,6 +14,7 @@ mod compact;
 mod credential_injection;
 mod full_flow;
 mod guardrails;
+mod lakera_guard;
 mod mcp_broker;
 mod model_to_header;
 mod openai_conversations;
